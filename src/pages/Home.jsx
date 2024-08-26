@@ -38,7 +38,7 @@ export const Home = () => {
       {loading && <p>Cargando...</p>}
         <div className="row justify-content-center">
           {data.map((pokemon, index) => (
-            <Card key={index} pokemon={pokemon} />
+            <Card key={index} pokemon={pokemon}  />
           ))}
         </div>
       </div>

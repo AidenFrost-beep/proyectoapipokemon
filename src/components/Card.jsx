@@ -5,7 +5,7 @@ export const Card = ({ pokemon }) => {
     <div className="col-md-5 card m-2 p-0">
       <div className='row g-0'>
       <div className="col-md-4">
-          <img className="img-fluid h-100" src="https://via.placeholder.com/800" alt="" />
+      <img src="https://img.pokemondb.net/sprites/ruby-sapphire/normal/persian.png" alt="Chikorita"/>
         </div>
         <div className="col-md-8 card-body">
           <h4 className='card-title text-capitalize'>{pokemon.name}</h4>
