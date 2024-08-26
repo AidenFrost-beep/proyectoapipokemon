@@ -24,7 +24,7 @@ export const Home = () => {
   };
 
   return (
-    <div>
+    <div className='bg-bodys'>
       <header className="App-header">
         <Form
           start={start}

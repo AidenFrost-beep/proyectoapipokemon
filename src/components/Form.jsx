@@ -17,7 +17,7 @@ export const Form = ({ start, end, setStart, setEnd, handleSubmit }) => {
         value={end}
         onChange={(e) => setEnd(e.target.value)}
       />
-      <button className="col-md btn btn-primary" type="submit">Obtener Pokémon</button>
+      <button className="col-md btn btn-danger" type="submit">Obtener Pokémon</button>
     </form>
   );
 }
